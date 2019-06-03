@@ -1,39 +1,34 @@
-## Python - 100天从新手到大师
 
-> 作者：骆昊
->
-> 说明：最近有很多想学习Python的小伙伴申请单独加我微信和QQ，因为我自己平时也很忙，没办法一一解答大家的问题，我创建了**Python100天学习交流1群**和**Python100天学习交流2群**两个交流群，群号分别为**680701107**和**213132758**，二维码在下方。我的同事和朋友很多也在这个群里，他们都是优秀的Python开发者，有丰富的商业项目经验，我们在时间充足的时候会及时解答大家的问题，而且从Python语言入门到Web应用开发，从数据分析到机器学习，每个领域都有技术大咖为大家解惑答疑。以后我们争取每周做一次视频直播，以专题的形式分享Python开发的点点滴滴，同时还会不定期的举办线上和线下的技术交流和分享活动，小伙伴们可以加群进行交流。感谢**千锋教育Python教学部**对本群的支持。
+❌ THIS IS ENGLISH VERSION OF PYTHON-100-DAYS ❌
+
+*All credit goes to original creator of this repository,
+ I am only providing English translation*
+
+## Python - 100 Days
+
+Author: Shanhao
+
+Description: Recently a lot of people want to learn Python's small partner application to add me WeChat and QQ, because I am usually very busy, can not answer all the questions, I created Python100 Day Learning exchange 1 Groups and Python100 day learning Exchange 2 groups Two communication groups, the group numbers are 680701107 and 213132758respectively, the QR code is below. Many of my colleagues and friends are also in this group, they are excellent Python developers, have a wealth of business project experience, we will be in time to answer your questions in a timely manner, and from the Python language introduction to WEB application development, from data analysis to machine learning, In every field there are technical big coffee for everyone to answer questions. Later, we strive to do a weekly live video, in the form of a special sharing of Python development bits and pieces, but also occasional online and offline technical exchanges and sharing activities, small partners can add groups to communicate. Thanks to the support of the Python teaching Department of Millennium Education for this group.
+
 
 ![](./res/python_100_days_qq_group.png)
 
-### Python应用领域和就业形势分析
+Analysis of Python application field and employment situation
 
-简单的说，Python是一个“优雅”、“明确”、“简单”的编程语言。
+Simply put, Python is an "elegant", "clear", "simple" programming language.
 
- - 学习曲线低，非专业人士也能上手
- - 开源系统，拥有强大的生态圈
- - 解释型语言，完美的平台可移植性
- - 支持面向对象和函数式编程
- - 能够通过调用C/C++代码扩展功能
- - 代码规范程度高，可读性强
+Low learning curve, non-professionals can also get startedOpen source system with a strong ecosystemExplanatory language, perfect platform portabilitySupport for object-oriented and functional programmingAbility to extend functionality by calling C/C + + codeHigh degree of code specification and readability
 
-目前几个比较流行的领域，Python都有用武之地。
+Python is useful in several of the more popular areas at the moment.
 
- - 云基础设施 - Python / Java / Go
- - DevOps - Python / Shell / Ruby / Go
- - 网络爬虫 - Python / PHP / C++
- - 数据分析挖掘 - Python / R / Scala / Matlab
- - 机器学习 - Python / R / Java / Lisp
+Cloud Infrastructure-Python/java/goDevops-python/shell/ruby/goWeb crawler-Python/php/c++Data analysis Mining-Python/r/Scala/matlabMachine learning-PYTHON/R/Java/lisp
 
-作为一名Python开发者，主要的就业领域包括：
+As a Python developer, the main areas of employment include:
 
-- Python服务器后台开发 / 游戏服务器开发 / 数据接口开发工程师
-- Python自动化运维工程师
-- Python数据分析 / 数据可视化 / 大数据工程师
-- Python爬虫工程师
-- Python聊天机器人开发 / 图像识别和视觉算法 / 深度学习工程师
+Python Server background Development/game server Development/data Interface Development EngineerPython Automation Operations EngineerPython data analysis/Data visualization/Big Data engineerPython crawler engineerPython chat robot development/image recognition and vision algorithms/deep Learning Engineers
 
-下图显示了主要城市Python招聘需求量及薪资待遇排行榜（截止到2018年5月）。
+The figure below shows the list of demand and pay for Python recruitment in major cities (as of May 2018).
+
 
 ![Python招聘需求及薪资待遇Top 10](./res/python-top-10.png)
 
@@ -41,44 +36,54 @@
 
 ![](./res/python-salary-chengdu.png)
 
-给初学者的几个建议：
+A few suggestions for beginners:
 
-- Make English as your working language.
-- Practice makes perfect.
-- All experience comes from mistakes.
-- Don't be one of the leeches.
-- Either stand out or kicked out.
+Make English as your working language.Practice makes perfect.All experience comes from mistakes.Don t be one of the leeches.Either stand out or kicked out.
 
 ### Day01~15 - [Python语言基础](./Day01-15)
 
 #### Day01 - [初识Python](./Day01-15/Day01/初识Python.md)
 
-- Python简介 - Python的历史 / Python的优缺点 / Python的应用领域
-- 搭建编程环境 - Windows环境 / Linux环境 / MacOS环境
-- 从终端运行Python程序 - DOS命令 / Hello, world / print函数 / 运行程序
-- 使用IDLE - 交互式环境(REPL) / 编写多行代码 / 运行程序 / 退出IDLE
-- 注释 - 注释的作用 / 单行注释 / 多行注释
+- Python Introduction-Python's history/Python's advantages and disadvantages/Python application areas
+
+- Building a programming environment-Windows environment/Linux environment/MacOS Environment
+
+- Run Python program from terminal-DOS command/Hello, World/print function/Run program
+
+
+-  Use IDLE-Interactive Environment (REPL)/write multiple lines of code/Run programs/exit IDLE
+
+Note-The role of annotations/single line comments/multiline comments
 
 #### Day02 - [语言元素](./Day01-15/Day02/语言元素.md)
 
-- 程序和进制 - 指令和程序 / 冯诺依曼机 / 二进制和十进制 / 八进制和十六进制
-- 变量和类型 - 变量的命名 / 变量的使用 / input函数 / 检查变量类型 / 类型转换
-- 数字和字符串 - 整数 / 浮点数 / 复数 / 字符串 / 字符串基本操作 / 字符编码
-- 运算符 - 数学运算符 / 赋值运算符 / 比较运算符 / 逻辑运算符 / 身份运算符 / 运算符的优先级
-- 应用案例 - 华氏温度转换成摄氏温度 / 输入圆的半径计算周长和面积 / 输入年份判断是否是闰年
+- Programs and decimal-instructions and procedures/Von Neumann/binary and decimal/eight binary and hexadecimal
+
+- Variables and types-Name of variables/use of variables/input function/Check variable type/type conversion
+
+- Numbers and strings-integer/floating-point/plural/string/string basic operations/character encoding
+
+- Operator-the priority of the mathematical operator/assignment operator/comparison operator/logical operator/identity operator/operator
+
+- Application case-Fahrenheit temperature converted to Celsius temperature/input circle radius calculate circumference and area/input year determine if it is a leap year
 
 #### Day03 - [分支结构](./Day01-15/Day03/分支结构.md)
 
-- 分支结构的应用场景 - 条件 / 缩进 / 代码块 / 流程图
-- if语句 - 简单的if / if-else结构 / if-elif-else结构 / 嵌套的if
-- 应用案例 - 用户身份验证 / 英制单位与公制单位互换 / 掷骰子决定做什么 / 百分制成绩转等级制 / 分段函数求值 / 输入三条边的长度如果能构成三角形就计算周长和面积
+- Application scenarios for Branch structures-condition/indent/code block/flowchart
+
+- If statement-simple IF/IF-ELSE structure/IF-ELIF-ELSE structure/nested IF
+
+- Application Case-user authentication/imperial unit swap/Roll dice with metric unit decide what to do/percentile score conversion rating/segmentation function evaluation/input three edge length if it can form a triangle, calculate the circumference and area.
 
 #### Day04 - [循环结构](./Day01-15/Day04/循环结构.md)
 
-- 循环结构的应用场景 - 条件 / 缩进 / 代码块 / 流程图
-- while循环 - 基本结构 / break语句 / continue语句
-- for循环 - 基本结构 / range类型 / 循环中的分支结构 / 嵌套的循环 / 提前结束程序 
-- 应用案例 - 1~100求和 / 判断素数 / 猜数字游戏 / 打印九九表 / 打印三角形图案 / 猴子吃桃 / 百钱百鸡
+- Application scenarios for cyclic structures-conditions/indents/code blocks/Flowcharts
+
+- While loop-basic structure/BREAK statement/Continue statement
+
+- For loops-branch structures/Nested loops/early end programs in the basic structure/range type/loop
+
+- Application Case-1~100 summation/judgment prime number/guess digital game/print 99 table/print triangle pattern/monkey eat peach/Hundred chicken
 
 #### Day05 - [总结和练习](./Day01-15/Day05/总结和练习.md)
 
